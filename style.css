@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 20px auto 0;
+    background: #f7f7f7;
+    border-radius: 5px;
+    padding: 1em;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 12px 18px;
+    border-radius: 5px;
+    display: block;
+    outline: none;
+    border: none;
+    background: #351d75;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .btn-primary:hover {
+    background: #a975c6;
+  }
+  
+  .btn-secondary {
+    background: none;
+    color: #351d75;
+  }
+  
+  section {
+    padding: 1rem;
+    margin-top: 40px;
+  }
+  
+  .start-text {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .start-text h1 {
+    font-size: 32px;
+  }
+  
+  .start-text p {
+    margin: 10px 0 30px;
+  }
+  
+  .quiz {
+    max-width: 700px;
+    margin: 40px auto;
+  }
+  
+  .quiz h2 {
+    font-size: 32px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 22px;
+  }
+  
+  .choices {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  
+  .choices button {
+    margin: 10px 0;
+  }
+  
+  #resultText {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .save-score {
+    text-align: center;
+  }
+  
+  .save-score form {
+    margin-top: 30px;
+  }
+  
+  .save-score input {
+    border: 1px solid lightgray;
+    padding: 12px 18px;
+  }
+  
+  #highScores ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  #highScores ul li {
+    margin: 10px 0;
+    background: #a975c6;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  #quizComponent,
+  #endComponent,
+  #highScores,
+  #result {
+    display: none;
+  }
+  

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <main class="container">
+        <section id="startComponent">
+            <button class="btn-secondary view-highscore">View High Scores</button>
+            <div class="start-text">
+                <h1>Coding Quiz Challenge</h1>
+                <p>
+                    Try to answer the following code-related questions within time limit.
+                    Keep in mind that incorrect answers will penalize your score/time by ten (10) seconds.
+                </p>
+                <button id="startQuiz" class="btn-primary">Start Quiz</button>
+            </div>
+        </section>
+
+        <section id="quizComponent">
+            <div class="info">
+                <p>Score: <span id="score">0</span></p>
+                <p>Time: <span id="time">75</span></p>
+            </div>
+            <div class="quiz" id="quiz"></div>
+            <div class="result" id="result">
+                <hr>
+                <div id="resultText"></div>
+            </div>
+        </section>
+
+        <section id="endComponent">
+            <button class="btn-secondary view-highscore">View High Scores</button>
+            <div class="save-score">
+                <h2>All Done!</h2>
+                <p>Your final score is <span id="finalScore">0</span></p>
+                <form id="saveForm">
+                    <label for="initials">Enter initials:</label>
+                    <input type="text" name="initials" id="initials" required>
+                    <button type="submit" class="btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="highScores">
+            <h2>High Scores</h2>
+            <ul class="highScores-ul" id="highScoresUl">
+            </ul>
+            <button id="goBack" class="btn-primary">Go Back</button>
+            <button id="clearScores" class="btn-primary">Clear High Scores</button>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
