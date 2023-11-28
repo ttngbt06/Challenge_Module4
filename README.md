@@ -18,4 +18,4 @@
 ## Mock-up
 ![](https://github.com/ttngbt06/Challenge_Module4/blob/main/Assets/MockUp_Challenge4.gif)
 ## Applicaton
-Ready? Check out deployed application => [Coding Quiz Challenge](https://ttngbt06.github.io/Challenge_Module4/)
+* Ready? Check out deployed application => [Coding Quiz Challenge](https://ttngbt06.github.io/Challenge_Module4/)
