@@ -16,5 +16,5 @@
 * WHEN the game is over
 * THEN I can save my initials and score
 ## Mock-up
-! [] (https://github.com/ttngbt06/Challenge_Module4/blob/main/Assets/MockUp_Challenge4.gif)
+![](https://github.com/ttngbt06/Challenge_Module4/blob/main/Assets/MockUp_Challenge4.gif)
 ## Deployed Applicaton
